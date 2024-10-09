@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,75,104,1) 64%);
+    color: white;
+    font-family: 'poppins';
+}
+.heading{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    font-size: 25px;
+}
+.tools{
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 30px;
+    
+}
+.tools a{
+    height: 45px;
+    width: 200px;
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    font-size: 25px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.tools a:hover{
+    color: rgb(45, 45, 46);
+    box-shadow: inset;
+    
+}
